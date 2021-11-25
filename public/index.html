@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <p>
+        <input type="text" id="to_num" name="to_num" />
+
+        <select id="to_curr" name="to_curr">
+          <option id="to_click" value="AED">AED</option>
+          <option id="to_click" value="AFN">AFN</option>
+          <option id="to_click" value="ALL">ALL</option>
+          <option id="to_click" value="AMD">AMD</option>
+          <option id="to_click" value="ANG">ANG</option>
+          <option id="to_click" value="AOA">AOA</option>
+          <option id="to_click" value="ARS">ARS</option>
+          <option id="to_click" value="AUD">AUD</option>
+          <option id="to_click" value="AWG">AWG</option>
+          <option id="to_click" value="AZN">AZN</option>
+          <option id="to_click" value="BAM">BAM</option>
+          <option id="to_click" value="BBD">BBD</option>
+          <option id="to_click" value="BDT">BDT</option>
+          <option id="to_click" value="BGN">BGN</option>
+          <option id="to_click" value="BHD">BHD</option>
+          <option id="to_click" value="BIF">BIF</option>
+          <option id="to_click" value="BMD">BMD</option>
+          <option id="to_click" value="BND">BND</option>
+          <option id="to_click" value="BOB">BOB</option>
+          <option id="to_click" value="BRL">BRL</option>
+          <option id="to_click" value="BSD">BSD</option>
+          <option id="to_click" value="BTN">BTN</option>
+          <option id="to_click" value="BWP">BWP</option>
+          <option id="to_click" value="BYN">BYN</option>
+          <option id="to_click" value="BYR">BYR</option>
+          <option id="to_click" value="BZD">BZD</option>
+          <option id="to_click" value="CAD">CAD</option>
+          <option id="to_click" value="CDF">CDF</option>
+          <option id="to_click" value="CHF">CHF</option>
+          <option id="to_click" value="CLF">CLF</option>
+          <option id="to_click" value="CLP">CLP</option>
+          <option id="to_click" value="CNY">CNY</option>
+          <option id="to_click" value="COP">COP</option>
+          <option id="to_click" value="CRC">CRC</option>
+          <option id="to_click" value="CUC">CUC</option>
+          <option id="to_click" value="CUP">CUP</option>
+          <option id="to_click" value="CVE">CVE</option>
+          <option id="to_click" value="CZK">CZK</option>
+          <option id="to_click" value="DJF">DJF</option>
+          <option id="to_click" value="DKK">DKK</option>
+          <option id="to_click" value="DOP">DOP</option>
+          <option id="to_click" value="DZD">DZD</option>
+          <option id="to_click" value="EGP">EGP</option>
+          <option id="to_click" value="ERN">ERN</option>
+          <option id="to_click" value="ETB">ETB</option>
+          <option id="to_click" value="EUR">EUR</option>
+          <option id="to_click" value="FJD">FJD</option>
+          <option id="to_click" value="FKP">FKP</option>
+          <option id="to_click" value="GBP">GBP</option>
+          <option id="to_click" value="GEL">GEL</option>
+          <option id="to_click" value="GGP">GGP</option>
+          <option id="to_click" value="GHS">GHS</option>
+          <option id="to_click" value="GIP">GIP</option>
+          <option id="to_click" value="GMD">GMD</option>
+          <option id="to_click" value="GNF">GNF</option>
+          <option id="to_click" value="GTQ">GTQ</option>
+          <option id="to_click" value="GYD">GYD</option>
+          <option id="to_click" value="HKD">HKD</option>
+          <option id="to_click" value="HNL">HNL</option>
+          <option id="to_click" value="HRK">HRK</option>
+          <option id="to_click" value="HTG">HTG</option>
+          <option id="to_click" value="HUF">HUF</option>
+          <option id="to_click" value="IDR">IDR</option>
+          <option id="to_click" value="ILS">ILS</option>
+          <option id="to_click" value="IMP">IMP</option>
+          <option id="to_click" value="INR">INR</option>
+          <option id="to_click" value="IQD">IQD</option>
+          <option id="to_click" value="IRR">IRR</option>
+          <option id="to_click" value="ISK">ISK</option>
+          <option id="to_click" value="JEP">JEP</option>
+          <option id="to_click" value="JMD">JMD</option>
+          <option id="to_click" value="JOD">JOD</option>
+          <option id="to_click" value="JPY">JPY</option>
+          <option id="to_click" value="KES">KES</option>
+          <option id="to_click" value="KGS">KGS</option>
+          <option id="to_click" value="KHR">KHR</option>
+          <option id="to_click" value="KMF">KMF</option>
+          <option id="to_click" value="KPW">KPW</option>
+          <option id="to_click" value="KRW">KRW</option>
+          <option id="to_click" value="KWD">KWD</option>
+          <option id="to_click" value="KYD">KYD</option>
+          <option id="to_click" value="KZT">KZT</option>
+          <option id="to_click" value="LAK">LAK</option>
+          <option id="to_click" value="LBP">LBP</option>
+          <option id="to_click" value="LKR">LKR</option>
+          <option id="to_click" value="LRD">LRD</option>
+          <option id="to_click" value="LSL">LSL</option>
+          <option id="to_click" value="LTL">LTL</option>
+          <option id="to_click" value="LVL">LVL</option>
+          <option id="to_click" value="LYD">LYD</option>
+          <option id="to_click" value="MAD">MAD</option>
+          <option id="to_click" value="MDL">MDL</option>
+          <option id="to_click" value="MGA">MGA</option>
+          <option id="to_click" value="MKD">MKD</option>
+          <option id="to_click" value="MMK">MMK</option>
+          <option id="to_click" value="MNT">MNT</option>
+          <option id="to_click" value="MOP">MOP</option>
+          <option id="to_click" value="MRO">MRO</option>
+          <option id="to_click" value="MUR">MUR</option>
+          <option id="to_click" value="MVR">MVR</option>
+          <option id="to_click" value="MWK">MWK</option>
+          <option id="to_click" value="MXN">MXN</option>
+          <option id="to_click" value="MYR">MYR</option>
+          <option id="to_click" value="MZN">MZN</option>
+          <option id="to_click" value="NAD">NAD</option>
+          <option id="to_click" value="NGN">NGN</option>
+          <option id="to_click" value="NIO">NIO</option>
+          <option id="to_click" value="NOK">NOK</option>
+          <option id="to_click" value="NPR">NPR</option>
+          <option id="to_click" value="NZD">NZD</option>
+          <option id="to_click" value="OMR">OMR</option>
+          <option id="to_click" value="PAB">PAB</option>
+          <option id="to_click" value="PEN">PEN</option>
+          <option id="to_click" value="PGK">PGK</option>
+          <option id="to_click" value="PHP">PHP</option>
+          <option id="to_click" value="PKR">PKR</option>
+          <option id="to_click" value="PLN">PLN</option>
+          <option id="to_click" value="PYG">PYG</option>
+          <option id="to_click" value="QAR">QAR</option>
+          <option id="to_click" value="RON">RON</option>
+          <option id="to_click" value="RSD">RSD</option>
+          <option id="to_click" value="RUB">RUB</option>
+          <option id="to_click" value="RWF">RWF</option>
+          <option id="to_click" value="SAR">SAR</option>
+          <option id="to_click" value="SBD">SBD</option>
+          <option id="to_click" value="SCR">SCR</option>
+          <option id="to_click" value="SDG">SDG</option>
+          <option id="to_click" value="SEK">SEK</option>
+          <option id="to_click" value="SGD">SGD</option>
+          <option id="to_click" value="SHP">SHP</option>
+          <option id="to_click" value="SLL">SLL</option>
+          <option id="to_click" value="SOS">SOS</option>
+          <option id="to_click" value="SRD">SRD</option>
+          <option id="to_click" value="STD">STD</option>
+          <option id="to_click" value="SVC">SVC</option>
+          <option id="to_click" value="SYP">SYP</option>
+          <option id="to_click" value="SZL">SZL</option>
+          <option id="to_click" value="THB">THB</option>
+          <option id="to_click" value="TJS">TJS</option>
+          <option id="to_click" value="TMT">TMT</option>
+          <option id="to_click" value="TND">TND</option>
+          <option id="to_click" value="TOP">TOP</option>
+          <option id="to_click" value="TRY">TRY</option>
+          <option id="to_click" value="TTD">TTD</option>
+          <option id="to_click" value="TWD">TWD</option>
+          <option id="to_click" value="TZS">TZS</option>
+          <option id="to_click" value="UAH">UAH</option>
+          <option id="to_click" value="UGX">UGX</option>
+          <option id="to_click" value="USD">USD</option>
+          <option id="to_click" value="UYU">UYU</option>
+          <option id="to_click" value="UZS">UZS</option>
+          <option id="to_click" value="VEF">VEF</option>
+          <option id="to_click" value="VND">VND</option>
+          <option id="to_click" value="VUV">VUV</option>
+          <option id="to_click" value="WST">WST</option>
+          <option id="to_click" value="XAF">XAF</option>
+          <option id="to_click" value="XAG">XAG</option>
+          <option id="to_click" value="XAU">XAU</option>
+          <option id="to_click" value="XCD">XCD</option>
+          <option id="to_click" value="XDR">XDR</option>
+          <option id="to_click" value="XOF">XOF</option>
+          <option id="to_click" value="XPF">XPF</option>
+          <option id="to_click" value="YER">YER</option>
+          <option id="to_click" value="ZAR">ZAR</option>
+          <option id="to_click" value="ZMK">ZMK</option>
+          <option id="to_click" value="ZMW">ZMW</option>
+          <option id="to_click" value="ZWL">ZWL</option>
+        </select>
+        ≈
+        <input type="text" id="form_num" name="form_num" />
+
+        <select id="form_curr" name="form_curr">
+          <option id="form_click" value="AED">AED</option>
+          <option id="form_click" value="AFN">AFN</option>
+          <option id="form_click" value="ALL">ALL</option>
+          <option id="form_click" value="AMD">AMD</option>
+          <option id="form_click" value="ANG">ANG</option>
+          <option id="form_click" value="AOA">AOA</option>
+          <option id="form_click" value="ARS">ARS</option>
+          <option id="form_click" value="AUD">AUD</option>
+          <option id="form_click" value="AWG">AWG</option>
+          <option id="form_click" value="AZN">AZN</option>
+          <option id="form_click" value="BAM">BAM</option>
+          <option id="form_click" value="BBD">BBD</option>
+          <option id="form_click" value="BDT">BDT</option>
+          <option id="form_click" value="BGN">BGN</option>
+          <option id="form_click" value="BHD">BHD</option>
+          <option id="form_click" value="BIF">BIF</option>
+          <option id="form_click" value="BMD">BMD</option>
+          <option id="form_click" value="BND">BND</option>
+          <option id="form_click" value="BOB">BOB</option>
+          <option id="form_click" value="BRL">BRL</option>
+          <option id="form_click" value="BSD">BSD</option>
+          <option id="form_click" value="BTN">BTN</option>
+          <option id="form_click" value="BTC">BTC</option>
+          <option id="form_click" value="BWP">BWP</option>
+          <option id="form_click" value="BYN">BYN</option>
+          <option id="form_click" value="BYR">BYR</option>
+          <option id="form_click" value="BZD">BZD</option>
+          <option id="form_click" value="CAD">CAD</option>
+          <option id="form_click" value="CDF">CDF</option>
+          <option id="form_click" value="CHF">CHF</option>
+          <option id="form_click" value="CLF">CLF</option>
+          <option id="form_click" value="CLP">CLP</option>
+          <option id="form_click" value="CNY">CNY</option>
+          <option id="form_click" value="COP">COP</option>
+          <option id="form_click" value="CRC">CRC</option>
+          <option id="form_click" value="CUC">CUC</option>
+          <option id="form_click" value="CUP">CUP</option>
+          <option id="form_click" value="CVE">CVE</option>
+          <option id="form_click" value="CZK">CZK</option>
+          <option id="form_click" value="DJF">DJF</option>
+          <option id="form_click" value="DKK">DKK</option>
+          <option id="form_click" value="DOP">DOP</option>
+          <option id="form_click" value="DZD">DZD</option>
+          <option id="form_click" value="EGP">EGP</option>
+          <option id="form_click" value="ERN">ERN</option>
+          <option id="form_click" value="ETB">ETB</option>
+          <option id="form_click" value="EUR">EUR</option>
+          <option id="form_click" value="FJD">FJD</option>
+          <option id="form_click" value="FKP">FKP</option>
+          <option id="form_click" value="GBP">GBP</option>
+          <option id="form_click" value="GEL">GEL</option>
+          <option id="form_click" value="GGP">GGP</option>
+          <option id="form_click" value="GHS">GHS</option>
+          <option id="form_click" value="GIP">GIP</option>
+          <option id="form_click" value="GMD">GMD</option>
+          <option id="form_click" value="GNF">GNF</option>
+          <option id="form_click" value="GTQ">GTQ</option>
+          <option id="form_click" value="GYD">GYD</option>
+          <option id="form_click" value="HKD">HKD</option>
+          <option id="form_click" value="HNL">HNL</option>
+          <option id="form_click" value="HRK">HRK</option>
+          <option id="form_click" value="HTG">HTG</option>
+          <option id="form_click" value="HUF">HUF</option>
+          <option id="form_click" value="IDR">IDR</option>
+          <option id="form_click" value="ILS">ILS</option>
+          <option id="form_click" value="IMP">IMP</option>
+          <option id="form_click" value="INR">INR</option>
+          <option value="IQD">IQD</option>
+          <option id="form_click" value="IRR">IRR</option>
+          <option id="form_click" value="ISK">ISK</option>
+          <option id="form_click" value="JEP">JEP</option>
+          <option id="form_click" value="JMD">JMD</option>
+          <option id="form_click" value="JOD">JOD</option>
+          <option id="form_click" value="JPY">JPY</option>
+          <option id="form_click" value="KES">KES</option>
+          <option id="form_click" value="KGS">KGS</option>
+          <option id="form_click" value="KHR">KHR</option>
+          <option id="form_click" value="KMF">KMF</option>
+          <option id="form_click" value="KPW">KPW</option>
+          <option id="form_click" value="KRW">KRW</option>
+          <option id="form_click" value="KWD">KWD</option>
+          <option id="form_click" value="KYD">KYD</option>
+          <option id="form_click" value="KZT">KZT</option>
+          <option id="form_click" value="LAK">LAK</option>
+          <option id="form_click" value="LBP">LBP</option>
+          <option id="form_click" value="LKR">LKR</option>
+          <option id="form_click" value="LRD">LRD</option>
+          <option id="form_click" value="LSL">LSL</option>
+          <option id="form_click" value="LTL">LTL</option>
+          <option id="form_click" value="LVL">LVL</option>
+          <option id="form_click" value="LYD">LYD</option>
+          <option id="form_click" value="MAD">MAD</option>
+          <option id="form_click" value="MDL">MDL</option>
+          <option id="form_click" value="MGA">MGA</option>
+          <option id="form_click" value="MKD">MKD</option>
+          <option id="form_click" value="MMK">MMK</option>
+          <option id="form_click" value="MNT">MNT</option>
+          <option id="form_click" value="MOP">MOP</option>
+          <option id="form_click" value="MRO">MRO</option>
+          <option id="form_click" value="MUR">MUR</option>
+          <option id="form_click" value="MVR">MVR</option>
+          <option id="form_click" value="MWK">MWK</option>
+          <option id="form_click" value="MXN">MXN</option>
+          <option id="form_click" value="MYR">MYR</option>
+          <option id="form_click" value="MZN">MZN</option>
+          <option id="form_click" value="NAD">NAD</option>
+          <option id="form_click" value="NGN">NGN</option>
+          <option id="form_click" value="NIO">NIO</option>
+          <option id="form_click" value="NOK">NOK</option>
+          <option id="form_click" value="NPR">NPR</option>
+          <option id="form_click" value="NZD">NZD</option>
+          <option id="form_click" value="OMR">OMR</option>
+          <option id="form_click" value="PAB">PAB</option>
+          <option id="form_click" value="PEN">PEN</option>
+          <option id="form_click" value="PGK">PGK</option>
+          <option id="form_click" value="PHP">PHP</option>
+          <option id="form_click" value="PKR">PKR</option>
+          <option id="form_click" value="PLN">PLN</option>
+          <option id="form_click" value="PYG">PYG</option>
+          <option id="form_click" value="QAR">QAR</option>
+          <option id="form_click" value="RON">RON</option>
+          <option id="form_click" value="RSD">RSD</option>
+          <option id="form_click" value="RUB">RUB</option>
+          <option id="form_click" value="RWF">RWF</option>
+          <option id="form_click" value="SAR">SAR</option>
+          <option id="form_click" value="SBD">SBD</option>
+          <option id="form_click" value="SCR">SCR</option>
+          <option id="form_click" value="SDG">SDG</option>
+          <option id="form_click" value="SEK">SEK</option>
+          <option id="form_click" value="SGD">SGD</option>
+          <option id="form_click" value="SHP">SHP</option>
+          <option id="form_click" value="SLL">SLL</option>
+          <option id="form_click" value="SOS">SOS</option>
+          <option id="form_click" value="SRD">SRD</option>
+          <option id="form_click" value="STD">STD</option>
+          <option id="form_click" value="SVC">SVC</option>
+          <option id="form_click" value="SYP">SYP</option>
+          <option id="form_click" value="SZL">SZL</option>
+          <option id="form_click" value="THB">THB</option>
+          <option id="form_click" value="TJS">TJS</option>
+          <option id="form_click" value="TMT">TMT</option>
+          <option id="form_click" value="TND">TND</option>
+          <option id="form_click" value="TOP">TOP</option>
+          <option id="form_click" value="TRY">TRY</option>
+          <option id="form_click" value="TTD">TTD</option>
+          <option id="form_click" value="TWD">TWD</option>
+          <option id="form_click" value="TZS">TZS</option>
+          <option id="form_click" value="UAH">UAH</option>
+          <option id="form_click" value="UGX">UGX</option>
+          <option id="form_click" value="USD">USD</option>
+          <option id="form_click" value="UYU">UYU</option>
+          <option id="form_click" value="UZS">UZS</option>
+          <option id="form_click" value="VEF">VEF</option>
+          <option id="form_click" value="VND">VND</option>
+          <option id="form_click" value="VUV">VUV</option>
+          <option id="form_click" value="WST">WST</option>
+          <option id="form_click" value="XAF">XAF</option>
+          <option id="form_click" value="XAG">XAG</option>
+          <option id="form_click" value="XAU">XAU</option>
+          <option id="form_click" value="XCD">XCD</option>
+          <option id="form_click" value="XDR">XDR</option>
+          <option id="form_click" value="XOF">XOF</option>
+          <option id="form_click" value="XPF">XPF</option>
+          <option id="form_click" value="YER">YER</option>
+          <option id="form_click" value="ZAR">ZAR</option>
+          <option id="form_click" value="ZMK">ZMK</option>
+          <option id="form_click" value="ZMW">ZMW</option>
+          <option id="form_click" value="ZWL">ZWL</option>
+        </select>
+        ≈<input type="text" name="eth_num" id="eth_num" />ETH
+      </p>
+
+      <p>
+        <button>GET</button>
+      </p>
+    </table>
+    <script type="text/javascript">
+      $("button").click(function () {
+        var to_curr = $("#to_curr").val();
+        var form_curr = $("#form_curr").val();
+        var to_num = $("#to_num").val();
+        $.ajax({
+          url: "http://127.0.0.1:8080/api", // 계산할 데이터를 해당 url로 전달
+          type: "get", // 전송 방식
+          data: {
+            // 전송 데이터
+            0: to_num,
+            1: to_curr,
+            2: form_curr,
+            3: "USD",
+            4: "ETH",
+          },
+          dataType: "json", // 전송 격식
+
+          //url에서 계산 완료된 결과를 웹페이지에 다시 전달
+          success: function (data) {
+            if (data == "0") {
+              alert("오류 발생");
+            } else {
+              var c = data.form_num.toFixed(4);
+              var i = data.eth.toFixed(4);
+              $("#form_num").val(c);
+              $("#eth_num").val(i);
+            }
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
